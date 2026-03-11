@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:5000/api"
+const BASE_URL = "https://moviebazar-ouvm.onrender.com/api"
 
 export const getPopularMovies = async () => {
     const response = await fetch(`${BASE_URL}/popular`)
